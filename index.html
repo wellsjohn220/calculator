@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <title>Calculator Test</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <h1>Basic Calculator</h1>
+      <form id="myform" name="calc">
+        <input id="display" name="display" /><br />
+        <input type="button" value="0" OnClick="calc.display.value+='0'" />
+        <input type="button" value="1" OnClick="calc.display.value+='1'" />
+        <input type="button" value="2" OnClick="calc.display.value+='2'" />
+        <input
+          type="button"
+          class="calbutton"
+          value="+"
+          OnClick="calc.display.value+='+'"
+        /><br />
+        <input type="button" value="3" OnClick="calc.display.value+='3'" />
+        <input type="button" value="4" OnClick="calc.display.value+='4'" />
+        <input type="button" value="5" OnClick="calc.display.value+='5'" />
+        <input
+          type="button"
+          class="calbutton"
+          value="-"
+          OnClick="calc.display.value+='-'"
+        /><br />
+        <input type="button" value="6" OnClick="calc.display.value+='6'" />
+        <input type="button" value="7" OnClick="calc.display.value+='7'" />
+        <input type="button" value="8" OnClick="calc.display.value+='8'" />
+        <input
+          type="button"
+          class="calbutton"
+          value="x"
+          OnClick="calc.display.value+='*'"
+        /><br />
+        <input type="button" value="9" OnClick="calc.display.value+='9'" />
+        <input
+          type="button"
+          value="C"
+          OnClick="calc.display.value=''"
+          id="buttonc"
+        />
+        <input
+          type="button"
+          class="calbutton"
+          value="="
+          OnClick="calc.display.value=eval(calc.display.value)"
+        />
+        <input
+          type="button"
+          class="calbutton"
+          value="&#247;"
+          OnClick="calc.display.value+='/'"
+        /><br />
+        <h3 style="margin-left: 15px">
+          &copy;Powered by John 12345 online class
+        </h3>
+      </form>
+    </div>
+  </body>
+</html>

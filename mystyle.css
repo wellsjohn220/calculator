@@ -1,0 +1,39 @@
+body {
+  background-color: beige;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-right: 150px;
+  margin-top: 20px;
+  color: blue;
+}
+#display {
+  width: 520px;
+  height: 70px;
+  text-align: right;
+  background-color: white;
+  padding-right: 20px;
+  margin-left: 15px;
+  color: blue;
+  border: 2px solid blue;
+}
+input {
+  width: 120px;
+  height: 80px;
+  font-size: 50px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: blue;
+  color: #fff;
+  border-style: none;
+}
+.calbutton {
+  background-color: green;
+}
+#buttonc {
+  background-color: #cc0000;
+}
+#wrap {
+  margin: 0 auto 0 auto;
+}
